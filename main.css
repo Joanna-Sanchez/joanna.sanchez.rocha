@@ -7,7 +7,20 @@
 
  .menu {
      color: rgb(94,97,100);
-     background-color: rgb(135,159,136)
-     
+     background-color: rgb(135,159,136);
+		       
  }
-
+ .menu-item{
+     font-size: 16px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-left: 8px;
+     padding-right: 8px;
+     float: left;
+ }
+/* for float: left; */
+ .clearfix::after{
+     content:"";
+     display: block;
+     clear: both; 
+ }
