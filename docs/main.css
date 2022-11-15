@@ -141,4 +141,21 @@ a:hover {
   color: pink;
   background-color: transparent;
 }
+
+a.dark:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.dark:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.dark:hover {
+  color: yellow;
+  background-color: transparent;
+}
 </style>
