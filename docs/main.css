@@ -125,19 +125,19 @@ body, html {
 }
 
 <style>
-a:link {
+a.menu:link {
     color: rgb(255,255,255);
     background-color: transparent;
     text-decoration: none;
 }
 
-a:visited {
+a.menu:visited {
     color: rgb(255,255,255);
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
+a.menu:hover {
   color: pink;
   background-color: transparent;
 }
