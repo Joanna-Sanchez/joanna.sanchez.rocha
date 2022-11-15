@@ -72,6 +72,14 @@ body, html {
     line-height: 2.0;
 }
 
+.mainbody-text-research {
+    margin-top: 7%;
+    margin-left: 7%;
+    width: 85%;
+    float: bottom;
+    line-height: 2.0;
+}
+
 .mainbody-image {
     margin-left: 0%;
     margin-right: 7%;
@@ -87,6 +95,15 @@ body, html {
     padding-top: 30px;
     width: 30%;
     float: right;
+    display: block;
+}
+
+.mainbody-image-research {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    width: 50%;
+    float: top;
     display: block;
 }
 
