@@ -80,6 +80,14 @@ body, html {
     line-height: 2.0;
 }
 
+.mainbody-text-activities {
+    margin-top: 7%;
+    margin-left: 7%;
+    width: 85%;
+    float: bottom;
+    line-height: 2.0;
+}
+
 .mainbody-image {
     margin-left: 0%;
     margin-right: 7%;
@@ -107,6 +115,22 @@ body, html {
     display: block;
 }
 
+.mainbody-image-mecha {
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.inline-block {
+   display: inline-block;
+}
 
 .footer {
     float: left;
